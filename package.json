@@ -1,8 +1,6 @@
 {
   "dependencies": {
     "@testing-library/react": "^9.1.4",
-    "jest": "^24.9.0",
-    "jest-dom": "^4.0.0"
   },
   "scripts": {
     "test": "jest"

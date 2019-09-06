@@ -1,7 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
-import Dashboard from './Dashboard.js'
-
 
 const Display = (props) => {
    const { strike, ball, foul} = props;
@@ -9,8 +7,6 @@ const Display = (props) => {
 
 
 <div>
-        
-
             <h2 className="strikesDisplay">Strikes</h2>
             <div className="strike">{strike}</div>
             <h2 className="ballDisplay">Balls</h2>
